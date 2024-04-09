@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import plotly_express as px
 import plotly.graph_objects as go
-import os
 import warnings
 
 # Modelos clasificatorios:
