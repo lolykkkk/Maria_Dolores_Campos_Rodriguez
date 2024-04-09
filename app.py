@@ -1,4 +1,8 @@
 # Librerías necesarias para nuestro análisis:
+# Antes
+import fiona
+# Después
+import rasterio as fiona
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -239,7 +243,7 @@ mapping = {'Nondemented': 0, 'Demented': 1, 'Converted': 2}  # Define your mappi
 df_original['Group'] = df['Group'].replace(mapping)
 
 # Dividir la edad en estado de Alzheimer precoz (menor de 60) y avanzado (mayor de 65):
-def funcion2(fila):
+run imdef funcion2(fila):
     if fila['Age'] < 65:
         return 0
     elif fila['Age'] >= 65:
