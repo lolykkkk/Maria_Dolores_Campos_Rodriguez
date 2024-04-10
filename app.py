@@ -249,7 +249,7 @@ def funcion2(fila):
     elif fila['Age'] >= 65:
         return 1
     else:
-        return np
+        return np.nan
     
 df_original['Age'] = df_original.apply(funcion2, axis=1)
 
