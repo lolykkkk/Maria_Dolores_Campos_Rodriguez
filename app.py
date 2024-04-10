@@ -1,8 +1,4 @@
 # Librerías necesarias para nuestro análisis:
-# Antes
-import fiona
-# Después
-import rasterio as fiona
 import streamlit as st
 import numpy as np
 import pandas as pd
