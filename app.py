@@ -136,7 +136,7 @@ DATASET: oasis_longitudinal.csv: Estos datos constan de más de 373 muestras cor
 SOURCE:  Open Access Series of Imaging Studies (OASIS) 
 """)
 # Agregar una imagen a la aplicación de Streamlit
-st.image('C:/Users/campo/OneDrive/Desktop/data/contenidos/modulo 2/modulo tres/proyecto final Alzheimer/concepto-demencia-perdida-memoria-alzheimer-creado-tecnologia-ia-generativa-980x553.jpg')
+st.image('C:/source/Maria_Dolores_Campos_Rodriguez/concepto-demencia-perdida-memoria-alzheimer-creado-tecnologia-ia-generativa-980x553.jpg')
 
 st.markdown("""""
 PROPÓSITO DEL ANÁLISIS: Según una serie de condiciones o parámetros, podemos predecir si una persona es diagnosticada o no con la enfermedad de Alzheimer y realizamos un análisis donde vemos qué relaciones y conclusiones podemos deducir de estos indicadores.
@@ -316,7 +316,7 @@ La función cognictiva sigue una distribución de valores bastante favorable y n
 """)
 
 #Imagen
-st.image('C:/Users/campo/OneDrive/Desktop/data/contenidos/modulo 2/modulo tres/proyecto final Alzheimer/1664484802109.jpg')
+st.image('C:/source/Maria_Dolores_Campos_Rodriguez/1664484802109.jpg')
 
 #Otro grafico
 fig = px.box(df, x='Age', y='nWBV')
@@ -335,7 +335,7 @@ st.write("""
 Aquí se observa un indicador clave que puede resulta crucial en nuestro estudio, dónde se muestra cómo a medida que la edad avanza en un sujeto, el tamaño del cerebro disminuye considerablemente de volmen, habiendo un deterioro muy marcado a partir de los 70 años. El nWBV resulta un indicador valioso para está deducción.
 """)
 # Agregar la imagen a la aplicación de Streamlit
-st.image('C:/Users/campo/OneDrive/Desktop/data/contenidos/modulo 2/modulo tres/proyecto final Alzheimer/brain_slices_alzheimers_spanish_version.jpg')
+st.image('C:/source/Maria_Dolores_Campos_Rodriguez/brain_slices_alzheimers_spanish_version.jpg')
 
 # Nuevo grafico
 
